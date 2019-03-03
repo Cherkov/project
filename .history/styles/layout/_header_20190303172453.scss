@@ -1,0 +1,21 @@
+.site-header {
+	background-color: $theme-colour;
+	color: $secondary-colour;
+}
+.page__navigation{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top:	0;
+	text-align: center;
+	height: 35px;
+	background-color: rgba(255,255,255,0.3);
+	font-size: 32px;
+	line-height: 35px;
+	.menu__item{
+		&-link{
+			color: #fff;
+			text-decoration: none;
+		}
+	}
+}

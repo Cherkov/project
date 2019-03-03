@@ -1,0 +1,17 @@
+// Block buttons 
+.button{
+	max-width: 283px;
+	width: 100%;
+	border: none;
+	border-radius: 0;
+	height: 65px;
+	background-color: rgba(0, 0, 0, 0.3);
+	line-height: 1.2;
+	color: #fff;
+	font-size: 27px;
+	font-family: Gulim;
+	transition: 0.3s;
+	&:hover{
+		background-color: rgba(0, 0, 0, 1);
+	}
+}
